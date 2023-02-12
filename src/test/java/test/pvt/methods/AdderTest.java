@@ -23,8 +23,8 @@ public class AdderTest {
 		Integer[] a = new Integer[2];
 		a[0] = 3;
 		a[1] = 4;
-		Integer b = 7;
-		Integer r  = (Integer)method.invoke(a1,a);
+		Integer b = 13;
+		Integer r  = (Integer)method.invoke(a1,6,7);
 		assertEquals(b,r);		
 	}
 	
